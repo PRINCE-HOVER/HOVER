@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    /* background-color: teal; */
+    
+}
+.more
+{
+    background-color: rgba(3, 3, 3, 0.897);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    border-radius: 70px 0px 0px 70px;
+    height: 40px;
+    width: 150px;
+    overflow: hidden;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 30;
+    transition: 0.5s width, 0.5s height;
+    color: rgba(255, 255, 255, 0.712);
+
+}
+.more h3
+{
+    font-size: 30;
+    position: relative;
+    /* transition: opacity 2s; */
+    transition: left 0.7s;
+    left: 120%;
+    opacity: 0;
+}
+.more:hover
+{
+    width: 20%;
+    height: 70vh;
+    background-color: rgba(3, 3, 3, 0.726);
+}
+.more:hover h3
+{
+    opacity: 1;
+    left: 0;
+}
+.lineforoptions
+{
+    background-color: grey;
+    width: 100%;
+    height: 2px;
+}
+.lineforh3insideoptions
+{
+    background-color: rgba(255, 255, 255, 0.062);
+    width: 100%;
+    height: 2px;
+    margin-top: 10px ;
+}
+
+
+
+.knowmoreabtme 
+{
+    background-color: rgba(3, 3, 3, 0.897);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    border-radius: 0px 70px 70px 0px;
+    height: 40px;
+    width: 250px;
+    overflow: hidden;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 30;
+    transition: 0.5s width, 0.5s height;
+    color: rgba(255, 255, 255, 0.712);
+
+}
+.knowmoreabtme:hover
+{
+    width: 40%;
+    height: 50vh;
+    background-color: rgba(3, 3, 3, 0.726);
+}
+.knowmoreabtme p
+{
+    position: relative;
+    font-size: 20;
+    opacity: 0;
+    transition: left 1.5s;
+    left: 100%;
+}
+.knowmoreabtme:hover p
+{
+    opacity: 1;
+    left: 0;
+}
+.hdrmoha
+{
+    /* background-color: red; */
+    text-align: center;
+    height: 70vh;
+    background-image: url(IMGS/2133.jpg);
+    background-size: cover;
+    padding: 90px;
+    color: rgb(255, 255, 255);
+    font-family: 'Tilt Neon', cursive;
+    font-size: 30px;
+    
+}
+.p1
+{
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.mohabpic
+{
+  width: 25%;
+  border-radius: 50%;
+}
+.btn
+{
+    background-color: rgb(0, 0, 0);
+    padding: 20px ;
+    margin: 20px;
+    font-size: large;
+    color: rgb(160, 160, 160);
+    border-radius: 40px;
+    font-family: 'Tilt Neon', cursive;
+    
+
+}
+
+.projects
+{
+    /* background-color: white; */
+    padding: 70px 0px;
+    font-family: 'segoe ui light';
+    text-align: center;
+}
+.projects h2
+{
+    font-size: 60px;
+}
+.projects .ph2
+{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+}
+
+.project
+{
+    /* background-color: blue; */
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: rgb(56, 56, 56);
+
+}
+.project img
+{
+    width: 60%;
+    border-radius: 50%;
+    padding: 40px 0px;
+}
+.project p
+{
+    padding: 10px;
+}
+.project .brdr
+{
+    background-color:grey;
+    width: 25%;
+    height: 3px;
+    margin: 10px auto;
+}
